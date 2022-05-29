@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  margin: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.button-list {
+  height: auto;
+  margin: 0.6rem;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: lightgray;
+}
+.button-list:focus {
+  border: 1px solid black;
+  color: black;
+}
+
+.product-image {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px black;
+}
+.cart-button {
+  height: 45px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.color-button {
+  margin-left: 0.8rem;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+#red {
+  background-color: red;
+  color: white;
+}
+#black {
+  background-color: black;
+  color: white;
+}
